@@ -1,37 +1,60 @@
 import React from 'react'
+import {Link} from "react-router-dom";
 import logo from "./images/logo.png";
 import "./Header.css";
 import SearchIcon from "@material-ui/icons/Search";
+import ShoppingBasketIcon  from '@material-ui/icons/ShoppingBasket';
 
 function Header() {
     return (
         <div className="header">
-             <img className="header_logo" src={logo}/>
+             <Link to ='/'>
+                 <img className="header_logo"  src={logo}/>
+                 
+                 </Link>
              
              <div className="header_search">
                  <input className="header_searchInput" type="text"/>
                  <SearchIcon className="header_searchIcon"/>
 
              </div>
-             <div className="header_nav">
+             <Link to ='/SignUp'>
+                 <div className="header_nav">
+                    <div className="header_option">
+                    <span className="header_option1">Hello Guest</span>   
+                     <span className="header_option1">Sign Up</span>
+
+                  </div>
+                  </div>
+                 </Link>
+    
                  <div className="header_option">
-                     <span className="header_option1">About Us</span>
+                    <span className="header_option2">Returns</span>
+                     <span className="header_option2"> & Orders</span>
 
                  </div>
-                 <div className="header_option">
-                     <span className="header_option2">Services</span>
 
-                 </div>
                  <div className="header_option">
-                     <span className="header_option3">Company</span>
-
+                 <span className="header_option3">You Can</span>
+                     <span className="header_option3">CheckOut</span>
+        
                  </div>
 
-             </div>
+
+                 <div className="header_optionbasket">
+                     <ShoppingBasketIcon/>
+                     <span className="header_option4"></span>
+                
+
+                 </div>
+
+             
+
 
 
             
         </div>
+        
     )
 }
 

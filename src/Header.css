@@ -22,7 +22,7 @@
     border-radius: 24px;  
 }
 
-.heder_searchinput{
+.header_searchInput{
     height: 12px;
     padding: 10px;
     border: none;
@@ -32,21 +32,31 @@
 
 .header_searchIcon {
     padding: 5px;
-    height: 15px !important;
+    height: 22px !important;
     background-color: #cd9042;
 
 }
 
-.herader_option1 {
-    font-size: 10px;
+.header_option1 {
+    font-size: 12px;
 }
 
-.herader_option2 {
-    font-size: 10px;
+.header_option2 {
+    font-size: 12px;
 }
 
-.herader_option3 {
-    font-size: 10px;
+.header_option3 {
+    font-size: 12px;
+}
+
+.header_option4{
+    font-size: 12px;
+}
+
+.header_optionbasket{
+    display: flex;
+    align-items: center;
+    color:white;
 }
 
 .header_nav {
@@ -61,3 +71,5 @@
     margin-right: 10px;
     color: white;
 }
+
+
