@@ -1,5 +1,4 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
 import './Customer_Service.css';
 
 function Customer_Service() {

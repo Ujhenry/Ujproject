@@ -7,7 +7,7 @@ function SignUp() {
     return (
         <div className='SignUp'>
             <Link to='/'>
-              <img className="header_logo" src={logo2}/>
+              <img className="header_logo" src={logo2} alt="" />
                  
             </Link>
             <div className='login__container'>

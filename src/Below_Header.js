@@ -9,7 +9,7 @@ function Below_Header() {
     return (
             <div className="headerSecondary">
                  <div className="header__nav">
-                 <img className="Uche" src= {burgar}/>
+                 <img className="Uche" src= {burgar} alt="" />
 
                     <Link to ="/TodaysDeal">
                      <div className="header__option">

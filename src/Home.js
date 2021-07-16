@@ -7,7 +7,7 @@ function Home() {
     return (
         <div className="home">
       <div className="home__container">
-        <img className="home__image" src= {headerbanner}/>
+        <img className="home__image" src= {headerbanner} alt="" />
 
         <div className="home__row">
           <div className="home__row1">
