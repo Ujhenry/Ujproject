@@ -27,7 +27,7 @@ function SignUp() {
                     By signing-in you agree to the AMAZON FAKE CLONE Conditions of Use & Sale. Please
                     see our Privacy Notice, our Cookies Notice and our Interest-Based Ads Notice.
                 </p>
-                <Link to ="/">
+                <Link to ="/Register">
                 <button className='login__registerButton'>Register Here</button>
 
 

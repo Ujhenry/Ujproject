@@ -7,52 +7,64 @@ function Footer() {
              <div class="top text-center">
       <a href="#nav-top">Back to top</a>
     </div>
-    <div class="middle">
-      <div class="center">
+
+      <div class='footer_base'>
+    <div class="a">
         <ul>
           <li><h3>Get to Know Us</h3></li>
-          <li><a href="#">Careers</a></li>
-          <li><a href="#">About Amazon</a></li>
-          <li><a href="#">Investor Relations</a></li>
-          <li><a href="#">Amazon Devices</a></li>
+          <li>Careers</li>
+          <li>About Amazon</li>
+          <li>Investor Relations</li>
+          <li>Amazon Devices</li>
         </ul>
+    </div>
+
+    <div class ="b">
         <ul>
           <li><h3>Make Money with Us</h3></li>
-          <li><a href="#">Sell on Amazon</a></li>
-          <li><a href="#">Sell Your Services on Amazon</a></li>
-          <li><a href="#">Sell on Amazon Business</a></li>
-          <li><a href="#">Sell Your Apps on Amazon</a></li>
-          <li><a href="#">Become an Affiliate</a></li>
-          <li><a href="#">Advertise Your Products</a></li>
-          <li><a href="#">Self-Publish with Us</a></li>
-          <li><a href="#">Become an Amazon Vendor</a></li>
-          <li><a href="#">Sell Your Subscription on Amazon</a></li>
-          <li><a href="#">› See all</a></li>
+          <li>Sell on Amazon</li>
+          <li>Sell Your Services on Amazon</li>
+          <li>Sell on Amazon Business</li>
+          <li>Sell Your Apps on Amazon</li>
+          <li>Become an Affiliate</li>
+          <li>Advertise Your Products</li>
+          <li>Self-Publish with Us</li>
+          <li>Become an Amazon Vendor</li>
+          <li>Sell Your Subscription on Amazon</li>
+          <li> See all</li>
         </ul>
+    </div>
+
+    <div class="c">
         <ul>
           <li><h3>Amazon Payment Products</h3></li>
-          <li><a href="#">Amazon Rewards Visa Signature Cards</a></li>
-          <li><a href="#">Amazon.com Store Card</a></li>
-          <li><a href="#">Amazon.com Corporate Credit Line</a></li>
-          <li><a href="#">Shop with Points</a></li>
-          <li><a href="#">Credit Card Marketplace</a></li>
-          <li><a href="#">Reload Your Balance</a></li>
-          <li><a href="#">Amazon Currency Converter</a></li>
+          <li>Amazon Rewards Visa Signature Cards</li>
+          <li>Amazon.com Store Card</li>
+          <li>Amazon.com Corporate Credit Line</li>
+          <li>Shop with Points</li>
+          <li>Credit Card Marketplace</li>
+          <li>Reload Your Balance</li>
+          <li>Amazon Currency Converter</li>
         </ul>
+    </div>
+
+    <div class="d">
         <ul>
           <li><h3>Let Us Help You</h3></li>
-          <li><a href="#">Your Account</a></li>
-          <li><a href="#">Your Orders</a></li>
-          <li><a href="#">Shipping Rates &amp; Policies</a></li>
-          <li><a href="#">Amazon Prime</a></li>
-          <li><a href="#">Returns &amp; Replacements</a></li>
-          <li><a href="#">Manage Your Content and Devices</a></li>
-          <li><a href="#">Amazon Assistant</a></li>
-          <li><a href="#">Help</a></li>
+          <li>Your Account</li>
+          <li>Your Orders</li>
+          <li>Shipping Rates &amp; Policies</li>
+          <li>Amazon Prime</li>
+          <li>Returns &amp; Replacements</li>
+          <li>Manage Your Content and Devices</li>
+          <li>Amazon Assistant</li>
+          <li>Help</li>
         </ul>
-      </div>
-     
     </div>
+  </div>
+    
+     
+    
             
 
      </div>  
